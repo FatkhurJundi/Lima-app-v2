@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sprint"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:7:5-30:19
+14        android:allowBackup="true"
+14-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Fatkhurrahman Jundi\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:13:9-35
+21        android:theme="@style/AppTheme"
+21-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:14:9-40
+22        android:usesCleartextTraffic="true" >
+22-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:8:9-44
+23        <activity
+23-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:15:9-18:68
+24            android:name="com.example.sprint.DetailSprintActivity"
+24-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:16:13-49
+25            android:label="@string/title_activity_detail_sprint"
+25-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:17:13-65
+26            android:theme="@style/AppTheme.NoActionBar" />
+26-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:18:13-56
+27        <activity android:name="com.example.sprint.FormSprintActivity" />
+27-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:19:9-56
+27-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:19:19-53
+28        <activity
+28-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:20:9-29:20
+29            android:name="com.example.sprint.MainActivity"
+29-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:21:13-41
+30            android:label="@string/app_name"
+30-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:22:13-45
+31            android:value=".MainActivity" >
+31-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:23:13-42
+32            <intent-filter>
+32-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:24:13-28:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:25:17-69
+33-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:25:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:27:17-77
+35-->C:\xampp\htdocs\Project\project-sprint-app\app\src\main\AndroidManifest.xml:27:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\Fatkhurrahman Jundi\.gradle\caches\transforms-2\files-2.1\84c8c25945b87fe16fdf2ca7227aed19\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+40            android:name="com.squareup.picasso.PicassoProvider"
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\Fatkhurrahman Jundi\.gradle\caches\transforms-2\files-2.1\84c8c25945b87fe16fdf2ca7227aed19\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+41            android:authorities="com.example.sprint.com.squareup.picasso"
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\Fatkhurrahman Jundi\.gradle\caches\transforms-2\files-2.1\84c8c25945b87fe16fdf2ca7227aed19\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+42            android:exported="false" />
+42-->[com.squareup.picasso:picasso:2.71828] C:\Users\Fatkhurrahman Jundi\.gradle\caches\transforms-2\files-2.1\84c8c25945b87fe16fdf2ca7227aed19\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+43        <provider
+43-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Fatkhurrahman Jundi\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+44            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Fatkhurrahman Jundi\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+45            android:authorities="com.example.sprint.lifecycle-process"
+45-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Fatkhurrahman Jundi\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+46            android:exported="false"
+46-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Fatkhurrahman Jundi\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+47            android:multiprocess="true" />
+47-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Fatkhurrahman Jundi\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+48    </application>
+49
+50</manifest>
